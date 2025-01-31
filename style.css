@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    height: auto;
+    width: 60%;
+    background-color: white;
+    padding: 25px 50px;
+}
+
+#text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 25px 0px;
+}
+
+#author {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+#new-quote {
+    padding: 5px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fas {
+    color:black;
+    font-size: 12px;
+    padding: 6px 2px;
+}
